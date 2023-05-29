@@ -5,7 +5,7 @@ const Blogging = () => {
   return (
     <section className={s.Blogging}>
       <h3>
-        A lot is happening, <br /> We are blogging about it.
+        A lot is happening, We are blogging about it.
       </h3>
       <div className={s.blocks}>
         <div className={s.left_block}>
