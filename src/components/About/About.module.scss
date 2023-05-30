@@ -1,0 +1,97 @@
+.about {
+    max-width: 1200px;
+    width: 100%;
+    padding-top: 100px;
+    margin: 0 auto;
+    .about_box {
+        width: 90%;
+        height: 600px;
+        margin: 0 auto;
+        background-color: #052D56;
+
+        .about_box_title {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 40px;
+            width: 85%;
+            margin: 0 auto;
+            .about_box_logo h1 {
+                color: white;
+                font-size: 24px;
+            }
+            .about_box_title_desc p{
+                font-size: 12px;
+                color: #81AFDD;
+            }
+        }
+        .about_box_information{
+            padding-top: 90px;
+            width: 85%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .about_box_information_logo h1{
+                background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #FFFFFF;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+             font-size: 34px;
+            }
+         .about_box_information_desc>p{
+                color: #FF8A71;
+                font-size: 16px;
+            }
+        }
+        .about_box_down{
+            padding-top: 100px;
+            width: 85%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .about_box_down_first h1{
+                color: white;
+            }
+            .about_box_down_first p{
+                color: #81AFDD;
+                font-size: 15px;
+            }
+            .about_box_down_to h1{
+                color: white;
+            }
+            .about_box_down_to p{
+                color: #81AFDD;
+            }
+            .about_box_down_three h1{
+                color: white;
+            }
+            .about_box_down_three p{
+                color: #81AFDD;
+            }
+        }
+
+    }
+}
+
+@media (max-width:1100px){
+    .about_box_title_desc>p{
+        font-size: 12px;
+    }
+
+    .about_box_down_to h1{
+        font-size: 25px;
+    }
+    .about_box_down_to{
+        font-size: 12px;
+    }
+    .about_box_down_three h1{
+        font-size: 25px;
+    }
+    .about_box_down_three p{
+        font-size: 12px;
+    }
+    @media(max-width:877px){
+    .about_box_down_three p{
+        font-size: 10px;
+    }
+}
+}

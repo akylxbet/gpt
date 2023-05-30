@@ -1,0 +1,81 @@
+.apps {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    .apps_title {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .apps_title_left {
+            .apps_title_left_photo {
+                width: 500px;
+            }
+        }
+
+        .apps_title_right {
+            padding-top: 150px;
+
+            .apps_title_right_desc h4 {
+                font-size: 16px;
+                line-height: 30px;
+                color: #71E5FF;
+            }
+
+            .apps_title_right_desc h2 {
+                font-size: 34px;
+                line-height: 45px;
+                background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #FFFFFF;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+
+            .apps_title_right_desc h6 {
+                font-size: 16px;
+                line-height: 30px;
+                color: #81AFDD;
+            }
+
+            .apps_title_right_desc h5 {
+                font-size: 16px;
+                line-height: 30px;
+                color: #FF8A71;
+            }
+        }
+    }
+
+    .apps_title_down {
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+        background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10.7236px;
+        .apps_title_down_title {
+            width: 85%;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        .apps_title_down_btn{
+            padding: 50px;
+        }
+
+        .apps_title_down_btn>button{
+            width: 170px;
+            height: 50px;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;        
+            background-color: #000000;
+            color: white;
+        }
+    }
+}
+@media(max-width:1153px){
+    .apps_title_down_btn{
+        padding-left: 700px;
+    }
+}

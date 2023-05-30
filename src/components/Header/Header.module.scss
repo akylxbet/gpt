@@ -1,0 +1,65 @@
+.header {
+    max-width: 1200px;
+    width: 100%;
+
+    .header_title {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        .header_logo{
+
+        }
+        .header_title_nav {
+            display: flex;
+            gap: 50px;
+          
+        }  .header_title_nav a{
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+            }
+
+        .header_title_btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+
+            .header_title_btn_login button {
+                color: white;
+                font-size: 18px;
+                border: none;
+                background: none;
+                width: 140px;
+                height: 50px;
+                cursor: pointer;
+                transition: all 0.45s;
+            }
+            .header_title_btn_login button:hover{
+                background-color: #002853;
+                border-radius: 5px;
+                width: 140px;
+                height: 50px;
+            }
+            .header_title_btn_sighnin{
+                justify-content: center;
+                align-items: center;
+            }
+            .header_title_btn_sighnin button {
+                color: white;
+                background-color:#FF4820;
+                font-size: 18px;
+                width: 140px;
+                cursor: pointer;
+                transition: all 0.45s;
+                height: 50px;
+                border-radius:5px;
+            }
+            .header_title_btn_sighnin button:hover{
+                background-color: transparent;
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.card {
+    max-width: 1200px;
+    width: 100%;
+
+    .card_title {
+        width: 90%;
+        margin: 0 auto;
+
+        .card_all {
+            display: flex;
+        }
+
+        .card_title_desc h1 {
+            font-size: 62px;
+            background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .card_title_right {
+            .card_title_right_card {
+                img {
+                    width: 400px;
+                    height: 285px;
+                    border-radius: 20px 0px 0px 0px;
+                }
+            }
+        }
+
+
+
+        .card_title_right_card {
+            border-radius: 40px 0px 0px 0px;
+            background: #042C54;
+            width: 400px;
+
+            .card_title_right_card_title {
+                width: 90%;
+                height: 300px;
+                margin: 0 auto;
+
+                .card_title_right_card_title_date h5 {
+                    color: white;
+                }
+
+                .card_title_right_card_title_desc h1 {
+                    color: white;
+                }
+
+                .card_title_right_card_title_down {
+                    padding-top: 50px;
+
+                }
+
+                .card_title_right_card_title_down h4 {
+                    color: white;
+                }
+
+            }
+
+        }
+
+        .card_left {
+            display: flex;
+            padding-left: 100px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+}
